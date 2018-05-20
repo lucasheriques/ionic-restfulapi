@@ -1,0 +1,32 @@
+<!--
+  Generated template for the DetalhesPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>aluno</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <h4>Detalhes estudante</h4>
+  <form (ngSubmit)="editEstudante()">
+    <ion-item>
+      <ion-label floating color="primary">Nome</ion-label>
+      <ion-input type="text" [(ngModel)]="estudante.nome" name="nome"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating color="primary">Nota</ion-label>
+      <ion-input type="text" [(ngModel)]="estudante.nota" name="nota"></ion-input>
+    </ion-item>
+    <br/>
+    <button ion-button type="submit" block>Editar estudante</button>
+  </form>
+
+  <button ion-button color="danger" (click)="deleteEstudante()" block>Deletar estudante</button>
+</ion-content>

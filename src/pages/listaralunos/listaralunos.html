@@ -1,0 +1,53 @@
+<!--
+  Generated template for the ListaralunosPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>#{{curso.id}} - {{curso.nome}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <h3>Lista de estudantes</h3>
+  <ion-list inset>
+  <button ion-item *ngFor="let aluno of alunos" (click)="detalhesEstudante(aluno.id, aluno.nome, aluno.nota, aluno.cursoId)" id="{{aluno.id}}">
+      <h2>{{aluno.nome}}</h2>
+      <p>Nota: {{aluno.nota}}</p>
+    </button>
+  </ion-list>
+
+  <h4>Adicionar novo estudante</h4>
+  <form (ngSubmit)="addEstudante()">
+    <ion-item>
+      <ion-label floating color="primary">Nome</ion-label>
+      <ion-input type="text" [(ngModel)]="aluno.nome" name="nome"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating color="primary">Nota</ion-label>
+      <ion-input type="text" [(ngModel)]="aluno.nota" name="nota"></ion-input>
+    </ion-item>
+    <br/>
+    <button ion-button type="submit" block>Adicionar aluno</button>
+  </form>
+  <br/>
+  <hr/>
+  <br/>
+  <h3>Editar curso</h3>
+  <form (ngSubmit)="editCurso()">
+    <ion-item>
+      <ion-label color="primary" floating>Nome</ion-label>
+      <ion-input type="text" [(ngModel)]="curso.nome" name="nomeCurso"></ion-input>
+    </ion-item>
+    <br/>
+    <button ion-button type="submit" block>Editar curso</button>
+  </form>
+  <br/>
+
+  <button ion-button color="danger" (click)="deleteCurso()" block>Deletar curso</button>
+</ion-content>
