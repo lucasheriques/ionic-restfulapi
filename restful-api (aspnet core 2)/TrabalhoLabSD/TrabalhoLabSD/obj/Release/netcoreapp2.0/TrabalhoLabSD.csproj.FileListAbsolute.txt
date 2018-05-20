@@ -1,0 +1,11 @@
+C:\Users\Lucas\source\repos\TrabalhoLabSD\TrabalhoLabSD\bin\Release\netcoreapp2.0\TrabalhoLabSD.deps.json
+C:\Users\Lucas\source\repos\TrabalhoLabSD\TrabalhoLabSD\bin\Release\netcoreapp2.0\TrabalhoLabSD.runtimeconfig.json
+C:\Users\Lucas\source\repos\TrabalhoLabSD\TrabalhoLabSD\bin\Release\netcoreapp2.0\TrabalhoLabSD.runtimeconfig.dev.json
+C:\Users\Lucas\source\repos\TrabalhoLabSD\TrabalhoLabSD\bin\Release\netcoreapp2.0\TrabalhoLabSD.dll
+C:\Users\Lucas\source\repos\TrabalhoLabSD\TrabalhoLabSD\bin\Release\netcoreapp2.0\TrabalhoLabSD.pdb
+C:\Users\Lucas\source\repos\TrabalhoLabSD\TrabalhoLabSD\obj\Release\netcoreapp2.0\TrabalhoLabSD.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\source\repos\TrabalhoLabSD\TrabalhoLabSD\obj\Release\netcoreapp2.0\TrabalhoLabSD.AssemblyInfoInputs.cache
+C:\Users\Lucas\source\repos\TrabalhoLabSD\TrabalhoLabSD\obj\Release\netcoreapp2.0\TrabalhoLabSD.AssemblyInfo.cs
+C:\Users\Lucas\source\repos\TrabalhoLabSD\TrabalhoLabSD\obj\Release\netcoreapp2.0\TrabalhoLabSD.dll
+C:\Users\Lucas\source\repos\TrabalhoLabSD\TrabalhoLabSD\obj\Release\netcoreapp2.0\TrabalhoLabSD.pdb
+C:\Users\Lucas\source\repos\TrabalhoLabSD\TrabalhoLabSD\obj\Release\netcoreapp2.0\TrabalhoLabSD.csprojResolveAssemblyReference.cache
